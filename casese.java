@@ -11,7 +11,7 @@ public class casese {
 		int a;
 		int b;
 		a=i.nextInt();
-		if (a<1)
+		if (a>1)
 		{
 			b=a%100;
 			System.out.println(b);
