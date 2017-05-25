@@ -1,12 +1,12 @@
-numb = int(input("Enter a number: "))
-if numb > 1:
+number = int(input("Enter a number: "))
+if number > 1:
    # check for factors
-   for i in range(2,numb):
-       if (num % i) == 0:
-           print(numb,"is not a prime number")
-           print(i,"times",numb//i,"is",numb)
+   for i in range(2,number):
+       if (number % i) == 0:
+           print(number,"is not a prime number")
+           print(i,"times",number//i,"is",number)
            break
    else:
-       print(numb,"is a prime number") 
+       print(number,"is a prime number") 
 else:
-   print(numb,"is not a prime number")
+   print(number,"is not a prime number")
